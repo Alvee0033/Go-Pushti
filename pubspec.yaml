@@ -1,0 +1,38 @@
+name: dvm_cattle_ration
+description: "গো-পুষ্টি - Cattle Nutrition Expert"
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  google_fonts: ^6.3.3
+  fl_chart: ^0.70.2
+  shared_preferences: ^2.3.4
+  url_launcher: ^6.3.2
+  provider: ^6.1.5
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+  flutter_launcher_icons: ^0.14.2
+
+flutter:
+  uses-material-design: true
+
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: "icon.png"
+  adaptive_icon_background: "#FFFFFF"
+  adaptive_icon_foreground: "icon.png"
+  adaptive_icon_monochrome: "icon.png"
+  min_sdk_android: 21
+  # Add padding to prevent corner cutting
+  android_13:
+    image_path: "icon.png"
